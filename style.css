@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html{
+    min-height: 100%;
+    /*overflow-y: scroll; /*always shows the scroll bar to prevent shifting on shorter pages*/
+    overflow-y:hidden;
+    overflow-x:hidden;
+    width: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    font-size: 14px;
+    text-align: justify;
+    font-weight: normal;
+    background-color:#2d9ddf;
+}
+.body-content{
+    margin: 5vw;
+}
+#list-container{
+    width: 30%;
+    margin: 0 auto auto auto;
+    box-shadow: 5px 5px 10px 0px #2378aa;
+    border: 2px #82c7e7 solid;
+    background-color: #307fa8;
+    padding: 1vw;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+#list-add{
+    padding: 0 0 1vw 0;
+    text-shadow: 1px 1px 1px #113952;
+}
+#list-add h3{
+    color: white;
+}
+.list-item{
+    width: 100%;
+    background-color: white;
+}
+.list-item-form{
+    width: 100%;
+    
+}
+.list-item-form-label{
+    justify-content: space-around;
+    padding: 1vw;
+}
+.list-item-form-label *{
+    width: 50%;
+}
+.list-item-form-buttons{
+    width: 100%;
+    padding: 0 0 1vw 0;
+    justify-content: space-around;
+}
+.list-item-form-buttons button, input[type="submit"]{
+    background-color: 0cadeb;
+    border: 2px #2e88ac solid;
+    border-radius: .25vw;
+    text-shadow: 1px 1px 1px #113952;
+    color: white;
+    font-weight: bold;
+    height: 2vw;
+    width: 6vw;
+}
+input[type="text"]
+{
+    height: 1.5vw;
+    background-color: #c3def3;
+    border: 2px #406683 solid;
+    border-radius: .25vw;
+    padding: 0 .25vw 0 .25vw;
+}
+.line-wide{
+    display: flex;
+    margin: auto;
+    border: 0;
+    height: 2px;
+    width: 80%;
+    background-color: #d8d9da;
+}
+.checkbox
+{
+    width: 50px;
+}
